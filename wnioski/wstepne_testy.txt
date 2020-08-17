@@ -1,0 +1,27 @@
+
+Argon2
+    czas wykonania argona 2 skaluje sie liniowo z 'time complexity' parametetrem,
+    ale szybkosc narastania zalezy od parametru zlozonsci pamieciowej.
+PBKDF
+    w PBKDF mamy dostepna tylko ilosc operacji, a czas wykonania skaluje sie liniowo wraz z iloscia operacji
+SCRPYT
+    scrypt posiada zlozonosc pamieciowa rowna 128*(ilosc_iteracji)*(rozmiar_bloku_w_b)*(liczba procesow)
+    Oznacza to iz posiadajac stala zlożoność pamięciową, możemy zwiększyć ilość iteracji ale musimy zmniejszyc rozmiar bloku
+    jest to jednak średnio przydatne gdyż z testów wynika iż czas wykonania zależy całkowicie liniowo od złożności pamieciowej
+    nie zależnie od stosunku iteracji do rozmaru bloku.
+
+Sumarycznie
+    w Argonie2 mozemy manipulowac osobno zlozonoscia pamieciowa i obliczeniowa, acz musimy pamietac iz dla duzych złożoności pamięciowych
+    czas wykonania będzie mocno rosnać wraz ze zwiększaniem time_complexity. Pemietajmy również iz dala Argon2i należy używać time_complexity przynajmniej 3
+    (ze względu na jeden z udanych ataków zmniejszających złożoność).
+
+    w PBKDF istnieje wewnetrzne skalowanie zuzycia ram wraz z zlonością obliczeniowa, acz nie mamy możliwości
+    kontrolowania go wprost.
+
+
+    Scrypt posiada podbna wade, gdyz o ile mozemy modyfikować złożoność pamięciową, to praktyczna złożonosć obliczeniowa
+    jest odniej liniowo zależna, co oznacza iż również nie mamy kontroli nad stosunkiem złożonosći obliczeniowej od pamieciowej
+
+    Tylko Argon2 umożliwia kontrolowanie stosunku złożoności obliczeniowej do złożoności pamięciowej. Jest to bardzo przydatne,
+    gdyż można stworzyć wywołanie które trwa relatywnie krótko (nie przeszkadzając użytkownikowi końcowemu), a jednocześnie zużywa
+    duże ilości pamięci RAM drastycznie utrudniając wszelakie ataki równoległe.

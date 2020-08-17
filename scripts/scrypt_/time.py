@@ -2,8 +2,8 @@ import numpy as np
 import time
 import scrypt
 
-ITER_COUNTS  = [(1024*4)<<i for i in range(6)]
-BLOCK_SIZES=[32*(2**i) for i in range(6)]
+ITER_COUNTS  = [(1024*4)<<i for i in range(25)]
+BLOCK_SIZES=[8*(2**i) for i in range(1)]
 CALLS_FOR_TIME_MEASURMENT = 50
 RETRIES_FOR_CALUCLATING_VARIANCE = 3
 PASSWORD = "s3kr3tp4ssw0rd"
