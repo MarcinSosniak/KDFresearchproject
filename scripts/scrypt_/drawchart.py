@@ -12,6 +12,7 @@ with open('time_test_write_down','r') as f:
         MB.append(int(float(line_s[4])))
         iterations.append(int(line_s[0]))
         time_taken.append(float(line_s[2]))
+        print('{} {} {}'.format(MB[-1],iterations[-1],time_taken[-1]))
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
