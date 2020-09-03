@@ -1,0 +1,242 @@
+
+c:\AGH\s8\KDFresearchproject\scripts\PBKDF2>cd ../../hashcat/hashcat-6.1.1 
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 1 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/1024 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #3: CUDA SDK Toolkit installation NOT detected.
+             CUDA SDK Toolkit installation required for proper device support and utilization
+             Falling back to OpenCL Runtime
+
+OpenCL API (OpenCL 2.0 ) - Platform #1 [Intel(R) Corporation]
+=============================================================
+* Device #1: Intel(R) HD Graphics 520, skipped
+* Device #2: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 7986/8050 MB (2012 MB allocatable), 4MCU
+
+OpenCL API (OpenCL 1.2 CUDA 8.0.0) - Platform #2 [NVIDIA Corporation]
+=====================================================================
+* Device #3: GeForce 920M, skipped
+
+Speed.#2.........:     7032 H/s (72.03ms)
+
+Started: Thu Sep 03 12:16:00 2020
+                                  Stopped: Thu Sep 03 12:16:41 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 1 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/128 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #3: CUDA SDK Toolkit installation NOT detected.
+             CUDA SDK Toolkit installation required for proper device support and utilization
+             Falling back to OpenCL Runtime
+
+OpenCL API (OpenCL 2.0 ) - Platform #1 [Intel(R) Corporation]
+=============================================================
+* Device #1: Intel(R) HD Graphics 520, skipped
+* Device #2: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 7986/8050 MB (2012 MB allocatable), 4MCU
+
+OpenCL API (OpenCL 1.2 CUDA 8.0.0) - Platform #2 [NVIDIA Corporation]
+=====================================================================
+* Device #3: GeForce 920M, skipped
+
+Speed.#2.........:    50448 H/s (76.79ms)
+
+Started: Thu Sep 03 12:16:41 2020
+                                  Stopped: Thu Sep 03 12:16:44 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 1 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/16384 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #3: CUDA SDK Toolkit installation NOT detected.
+             CUDA SDK Toolkit installation required for proper device support and utilization
+             Falling back to OpenCL Runtime
+
+OpenCL API (OpenCL 2.0 ) - Platform #1 [Intel(R) Corporation]
+=============================================================
+* Device #1: Intel(R) HD Graphics 520, skipped
+* Device #2: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 7986/8050 MB (2012 MB allocatable), 4MCU
+
+OpenCL API (OpenCL 1.2 CUDA 8.0.0) - Platform #2 [NVIDIA Corporation]
+=====================================================================
+* Device #3: GeForce 920M, skipped
+
+Speed.#2.........:      432 H/s (73.97ms)
+
+Started: Thu Sep 03 12:16:44 2020
+                                  Stopped: Thu Sep 03 12:16:52 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 1 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/2048 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #3: CUDA SDK Toolkit installation NOT detected.
+             CUDA SDK Toolkit installation required for proper device support and utilization
+             Falling back to OpenCL Runtime
+
+OpenCL API (OpenCL 2.0 ) - Platform #1 [Intel(R) Corporation]
+=============================================================
+* Device #1: Intel(R) HD Graphics 520, skipped
+* Device #2: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 7986/8050 MB (2012 MB allocatable), 4MCU
+
+OpenCL API (OpenCL 1.2 CUDA 8.0.0) - Platform #2 [NVIDIA Corporation]
+=====================================================================
+* Device #3: GeForce 920M, skipped
+
+Speed.#2.........:     3473 H/s (73.24ms)
+
+Started: Thu Sep 03 12:16:53 2020
+                                  Stopped: Thu Sep 03 12:16:57 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 1 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/256 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #3: CUDA SDK Toolkit installation NOT detected.
+             CUDA SDK Toolkit installation required for proper device support and utilization
+             Falling back to OpenCL Runtime
+
+OpenCL API (OpenCL 2.0 ) - Platform #1 [Intel(R) Corporation]
+=============================================================
+* Device #1: Intel(R) HD Graphics 520, skipped
+* Device #2: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 7986/8050 MB (2012 MB allocatable), 4MCU
+
+OpenCL API (OpenCL 1.2 CUDA 8.0.0) - Platform #2 [NVIDIA Corporation]
+=====================================================================
+* Device #3: GeForce 920M, skipped
+
+Speed.#2.........:    27409 H/s (72.25ms)
+
+Started: Thu Sep 03 12:16:58 2020
+                                  Stopped: Thu Sep 03 12:17:01 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 1 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/32768 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #3: CUDA SDK Toolkit installation NOT detected.
+             CUDA SDK Toolkit installation required for proper device support and utilization
+             Falling back to OpenCL Runtime
+
+OpenCL API (OpenCL 2.0 ) - Platform #1 [Intel(R) Corporation]
+=============================================================
+* Device #1: Intel(R) HD Graphics 520, skipped
+* Device #2: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 7986/8050 MB (2012 MB allocatable), 4MCU
+
+OpenCL API (OpenCL 1.2 CUDA 8.0.0) - Platform #2 [NVIDIA Corporation]
+=====================================================================
+* Device #3: GeForce 920M, skipped
+
+Speed.#2.........:      221 H/s (72.38ms)
+
+Started: Thu Sep 03 12:17:02 2020
+                                  Stopped: Thu Sep 03 12:17:09 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 1 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/4096 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #3: CUDA SDK Toolkit installation NOT detected.
+             CUDA SDK Toolkit installation required for proper device support and utilization
+             Falling back to OpenCL Runtime
+
+OpenCL API (OpenCL 2.0 ) - Platform #1 [Intel(R) Corporation]
+=============================================================
+* Device #1: Intel(R) HD Graphics 520, skipped
+* Device #2: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 7986/8050 MB (2012 MB allocatable), 4MCU
+
+OpenCL API (OpenCL 1.2 CUDA 8.0.0) - Platform #2 [NVIDIA Corporation]
+=====================================================================
+* Device #3: GeForce 920M, skipped
+
+Speed.#2.........:     1770 H/s (72.06ms)
+
+Started: Thu Sep 03 12:17:09 2020
+                                  Stopped: Thu Sep 03 12:17:13 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 1 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/512 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #3: CUDA SDK Toolkit installation NOT detected.
+             CUDA SDK Toolkit installation required for proper device support and utilization
+             Falling back to OpenCL Runtime
+
+OpenCL API (OpenCL 2.0 ) - Platform #1 [Intel(R) Corporation]
+=============================================================
+* Device #1: Intel(R) HD Graphics 520, skipped
+* Device #2: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 7986/8050 MB (2012 MB allocatable), 4MCU
+
+OpenCL API (OpenCL 1.2 CUDA 8.0.0) - Platform #2 [NVIDIA Corporation]
+=====================================================================
+* Device #3: GeForce 920M, skipped
+
+Speed.#2.........:    13578 H/s (49.25ms)
+
+Started: Thu Sep 03 12:17:13 2020
+                                  Stopped: Thu Sep 03 12:17:17 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 1 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/64 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #3: CUDA SDK Toolkit installation NOT detected.
+             CUDA SDK Toolkit installation required for proper device support and utilization
+             Falling back to OpenCL Runtime
+
+OpenCL API (OpenCL 2.0 ) - Platform #1 [Intel(R) Corporation]
+=============================================================
+* Device #1: Intel(R) HD Graphics 520, skipped
+* Device #2: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 7986/8050 MB (2012 MB allocatable), 4MCU
+
+OpenCL API (OpenCL 1.2 CUDA 8.0.0) - Platform #2 [NVIDIA Corporation]
+=====================================================================
+* Device #3: GeForce 920M, skipped
+
+Speed.#2.........:   101.0 kH/s (36.17ms)
+
+Started: Thu Sep 03 12:17:17 2020
+                                  Stopped: Thu Sep 03 12:17:20 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 1 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/8192 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #3: CUDA SDK Toolkit installation NOT detected.
+             CUDA SDK Toolkit installation required for proper device support and utilization
+             Falling back to OpenCL Runtime
+
+OpenCL API (OpenCL 2.0 ) - Platform #1 [Intel(R) Corporation]
+=============================================================
+* Device #1: Intel(R) HD Graphics 520, skipped
+* Device #2: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 7986/8050 MB (2012 MB allocatable), 4MCU
+
+OpenCL API (OpenCL 1.2 CUDA 8.0.0) - Platform #2 [NVIDIA Corporation]
+=====================================================================
+* Device #3: GeForce 920M, skipped
+
+Speed.#2.........:      872 H/s (73.19ms)
+
+Started: Thu Sep 03 12:17:20 2020
+                                  Stopped: Thu Sep 03 12:17:25 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
