@@ -1,0 +1,252 @@
+
+c:\AGH\s8\KDFresearchproject\scripts\PBKDF2>cd ../../hashcat/hashcat-6.1.1 
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 2 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/1024 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+CUDA API (CUDA 11.0)
+====================
+* Device #1: GeForce GTX 1070, 6798/8192 MB, 15MCU
+
+OpenCL API (OpenCL 1.2 CUDA 11.0.140) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: GeForce GTX 1070, skipped
+
+Speed.#1.........:   170.1 kH/s (17.02ms)
+
+Started: Thu Sep 03 12:10:14 2020
+                                  Stopped: Thu Sep 03 12:10:18 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 2 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/128 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+CUDA API (CUDA 11.0)
+====================
+* Device #1: GeForce GTX 1070, 6798/8192 MB, 15MCU
+
+OpenCL API (OpenCL 1.2 CUDA 11.0.140) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: GeForce GTX 1070, skipped
+
+Speed.#1.........:  1110.9 kH/s (1.31ms)
+
+Started: Thu Sep 03 12:10:18 2020
+                                  Stopped: Thu Sep 03 12:10:20 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 2 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/16384 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+CUDA API (CUDA 11.0)
+====================
+* Device #1: GeForce GTX 1070, 6798/8192 MB, 15MCU
+
+OpenCL API (OpenCL 1.2 CUDA 11.0.140) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: GeForce GTX 1070, skipped
+
+Speed.#1.........:    10924 H/s (25.65ms)
+
+Started: Thu Sep 03 12:10:20 2020
+                                  Stopped: Thu Sep 03 12:10:24 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 2 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/2048 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+CUDA API (CUDA 11.0)
+====================
+* Device #1: GeForce GTX 1070, 6798/8192 MB, 15MCU
+
+OpenCL API (OpenCL 1.2 CUDA 11.0.140) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: GeForce GTX 1070, skipped
+
+Speed.#1.........:    86173 H/s (12.83ms)
+
+Started: Thu Sep 03 12:10:24 2020
+                                  Stopped: Thu Sep 03 12:10:27 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 2 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/256 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+CUDA API (CUDA 11.0)
+====================
+* Device #1: GeForce GTX 1070, 6798/8192 MB, 15MCU
+
+OpenCL API (OpenCL 1.2 CUDA 11.0.140) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: GeForce GTX 1070, skipped
+
+Speed.#1.........:   605.9 kH/s (1.45ms)
+
+Started: Thu Sep 03 12:10:27 2020
+                                  Stopped: Thu Sep 03 12:10:29 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 2 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/32768 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+CUDA API (CUDA 11.0)
+====================
+* Device #1: GeForce GTX 1070, 6798/8192 MB, 15MCU
+
+OpenCL API (OpenCL 1.2 CUDA 11.0.140) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: GeForce GTX 1070, skipped
+
+Speed.#1.........:     5465 H/s (25.63ms)
+
+Started: Thu Sep 03 12:10:29 2020
+                                  Stopped: Thu Sep 03 12:10:34 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 2 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/4096 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+CUDA API (CUDA 11.0)
+====================
+* Device #1: GeForce GTX 1070, 6798/8192 MB, 15MCU
+
+OpenCL API (OpenCL 1.2 CUDA 11.0.140) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: GeForce GTX 1070, skipped
+
+Speed.#1.........:    43317 H/s (12.84ms)
+
+Started: Thu Sep 03 12:10:34 2020
+                                  Stopped: Thu Sep 03 12:10:37 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 2 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/512 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+CUDA API (CUDA 11.0)
+====================
+* Device #1: GeForce GTX 1070, 6798/8192 MB, 15MCU
+
+OpenCL API (OpenCL 1.2 CUDA 11.0.140) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: GeForce GTX 1070, skipped
+
+Speed.#1.........:   325.9 kH/s (2.87ms)
+
+Started: Thu Sep 03 12:10:37 2020
+                                  Stopped: Thu Sep 03 12:10:40 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 2 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/64 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+CUDA API (CUDA 11.0)
+====================
+* Device #1: GeForce GTX 1070, 6798/8192 MB, 15MCU
+
+OpenCL API (OpenCL 1.2 CUDA 11.0.140) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: GeForce GTX 1070, skipped
+
+Speed.#1.........:  1957.5 kH/s (1.09ms)
+
+Started: Thu Sep 03 12:10:40 2020
+                                  Stopped: Thu Sep 03 12:10:42 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>hashcat -m 12100 -w 3 -a 3 --speed-only --potfile-disable --runtime=10 -D 2 ../../scripts/PBKDF2/PBKDF2_hashcat_hashes/8192 ?a?a?a 
+hashcat (v6.1.1) starting in speed-only mode...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+CUDA API (CUDA 11.0)
+====================
+* Device #1: GeForce GTX 1070, 6798/8192 MB, 15MCU
+
+OpenCL API (OpenCL 1.2 CUDA 11.0.140) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: GeForce GTX 1070, skipped
+
+Speed.#1.........:    21661 H/s (12.85ms)
+
+Started: Thu Sep 03 12:10:42 2020
+                                  Stopped: Thu Sep 03 12:10:45 2020
+
+c:\AGH\s8\KDFresearchproject\hashcat\hashcat-6.1.1>ECHO ================================================================================================================================================================================================================================================ 
+================================================================================================================================================================================================================================================
